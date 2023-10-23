@@ -1,0 +1,25 @@
+.menu{
+    display: flex;
+    background-color: black;
+    height: 100vh;
+    padding: 0 10px;
+    color: white;
+    flex-direction: column;
+    gap: 32px;
+    width: 158px;
+}
+
+
+.menu-link {
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+}
+
+i.icon {
+    flex-basis: 18%;
+}
+
+i.icon.fa-solid.fa-square.fa-sm {
+    margin-top: 9px;
+}
